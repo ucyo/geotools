@@ -116,6 +116,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "global-land-mask"
+version = "1.0.0"
+description = "Check whether a lat/lon point in on land or on sea"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "h5netcdf"
 version = "0.11.0"
 description = "netCDF4 via h5py"
@@ -354,7 +362,7 @@ viz = ["matplotlib", "seaborn", "nc-time-axis"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "c6b609db15adf1a7194cce222fa64e93ff771fc3ab969c7645974cc641ac0824"
+content-hash = "d009b0d4367ceb7daf1274d5fb70c1ad2ba0a1fa2ea6aacaedcc9eea42304407"
 
 [metadata.files]
 basemap = []
@@ -411,6 +419,10 @@ funcargparse = [
 ]
 gdal = [
     {file = "GDAL-3.0.4.tar.gz", hash = "sha256:a17eaa6872e4b7f7fa82f86aeccecc57d224bd054952a56db64368ecaf18509c"},
+]
+global-land-mask = [
+    {file = "global-land-mask-1.0.0.tar.gz", hash = "sha256:956bf02e8b05bfc9f3a29cbc6e97d5ba4151c0732504acc73c2db9ea325ecff3"},
+    {file = "global_land_mask-1.0.0-py3-none-any.whl", hash = "sha256:07751fbb4e3834ee508a84ea64d9bd5340fbd0a8c951e24b43c323fcc670bb62"},
 ]
 h5netcdf = [
     {file = "h5netcdf-0.11.0-py2.py3-none-any.whl", hash = "sha256:6411733d85f84d420ea0a0b482dd88a343787bcfba4e8867644e1f6d817cd6b0"},
