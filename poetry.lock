@@ -79,11 +79,14 @@ six = "*"
 
 [[package]]
 name = "gdal"
-version = "3.0.4"
+version = "3.2.2"
 description = "GDAL: Geospatial Data Abstraction Library"
 category = "main"
 optional = false
 python-versions = "*"
+
+[package.extras]
+numpy = ["numpy (>1.0.0)"]
 
 [[package]]
 name = "global-land-mask"
@@ -321,7 +324,7 @@ viz = ["matplotlib", "seaborn", "nc-time-axis"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "ca8d15849edc9548b0da13072e97003353261ebc814d99b456b276504a6e977c"
+content-hash = "481714b8d36d2b84432c0d55101605ded978065afc2ebeb3eeaed20580b9717b"
 
 [metadata.files]
 cartopy = [
@@ -372,7 +375,7 @@ funcargparse = [
     {file = "funcargparse-0.2.5.tar.gz", hash = "sha256:f33d0d2ad4b865e7726c4de3bf8c3e4d36313acf6cf0cff945cead396ec80fea"},
 ]
 gdal = [
-    {file = "GDAL-3.0.4.tar.gz", hash = "sha256:a17eaa6872e4b7f7fa82f86aeccecc57d224bd054952a56db64368ecaf18509c"},
+    {file = "GDAL-3.2.2.tar.gz", hash = "sha256:b8e9079f3a0b4dc0c69eafda29a655b70f5c1e2a94a039a3b6dfae0a083e07b6"},
 ]
 global-land-mask = [
     {file = "global-land-mask-1.0.0.tar.gz", hash = "sha256:956bf02e8b05bfc9f3a29cbc6e97d5ba4151c0732504acc73c2db9ea325ecff3"},
