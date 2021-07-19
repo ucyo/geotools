@@ -8,6 +8,17 @@ authors = ["Ugur Cayoglu"]
 python = "^3.8"
 Cartopy = "^0.19.0"
 numpy = "^1.21.1"
+pandas = "^1.3.0"
+xarray = "^0.18.2"
+seaborn = "^0.11.1"
+matplotlib = "^3.4.2"
+psyplot = "^1.3.1"
+nco = "^1.0.0"
+cdo = "^1.5.4"
+netCDF4 = "^1.5.7"
+h5netcdf = "^0.11.0"
+Pillow = "^8.3.1"
+GDAL = "3.0.4"  # poetry add gdal=$(gdal-config --version)
 
 [tool.poetry.dev-dependencies]
 
