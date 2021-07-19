@@ -18,8 +18,7 @@ cdo = "^1.5.4"
 netCDF4 = "^1.5.7"
 h5netcdf = "^0.11.0"
 Pillow = "^8.3.1"
-GDAL = "3.0.4"  # poetry add gdal=$(gdal-config --version)
-basemap = {git = "https://github.com/matplotlib/basemap.git"}
+GDAL = "3.2.2"  # poetry add gdal=$(gdal-config --version)
 global-land-mask = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
