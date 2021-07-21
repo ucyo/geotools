@@ -41,6 +41,13 @@ enroot create --name geotools ucyo+geotools+centos.sqsh
 enroot start --rw geotools python
 ```
 
+- Mount current folder in the container at `/mnt` and execute a script e.g. `script.py`
+```bash
+enroot start --rw -m $(pwd):/mnt geotools bash  # enter container
+cd /mnt                                         # change directory to mounted location
+python script.py                                # execute script
+```
+
 - After all the hard work remove the mount
 ```bash
 enroot remove geotools
